@@ -24,21 +24,21 @@ module.exports = function configJSON(req) {
         outArguments: [],
         // Fill in the host with the host that this is running on.
         // It must run under HTTPS
-        url: `https://${req.headers.host}/modules/discount-redemption-split/execute`
+        url: `https://discount-3wj3.onrender.com/modules/discount-redemption-split/execute`
       }
     },
     configurationArguments: {
       save: {
-        url: `https://${req.headers.host}/modules/discount-redemption-split/save`
+        url: `https://discount-3wj3.onrender.com/modules/discount-redemption-split/save`
       },
       publish: {
-        url: `https://${req.headers.host}/modules/discount-redemption-split/publish`
+        url: `https://discount-3wj3.onrender.com/modules/discount-redemption-split/publish`
       },
       validate: {
-        url: `https://${req.headers.host}/modules/discount-redemption-split/validate`
+        url: `https://discount-3wj3.onrender.com/modules/discount-redemption-split/validate`
       },
       stop: {
-        url: `https://${req.headers.host}/modules/discount-redemption-split/stop`
+        url: `https://discount-3wj3.onrender.com/modules/discount-redemption-split/stop`
       }
     },
     userInterfaces: {
